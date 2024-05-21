@@ -1,0 +1,42 @@
+body {
+    background-image: url('background2.jpg'); 
+    background-size:cover ;
+    background-repeat: no-repeat; 
+    background-size:100%;
+    background-position: center; 
+    background-attachment: scroll;
+}
+
+li {
+    display: inline;
+ }
+ 
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding:20px;
+    overflow: hidden;
+    background-color: #f4ececf2;
+  }
+  
+  li {
+    float: left;
+  }
+  a {
+    display: block;
+    padding: 15px;
+    background-color: #dddddd;
+  }
+    li a {
+    font-family: "Times New Roman", Times, serif;
+    display: block;
+    color: rgb(15, 15, 15);
+    text-align: center;
+    padding: 20px 40px;
+    text-decoration:none;
+  }
+  
+  .active {
+    background-color: rgb(236, 231, 231);
+  }
+  
